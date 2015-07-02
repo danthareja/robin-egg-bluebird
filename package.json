@@ -1,0 +1,23 @@
+{
+  "name": "robin-egg-bluebird",
+  "version": "1.0.0",
+  "description": "A tiny Promises/A+ compliant implementation inspired by the official Crayola color",
+  "author": "Dan Thareja <danthareja@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danthareja/robin-egg-bluebird.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "promises-aplus-tests test.js"
+  },
+  "keywords": [
+    "promises",
+    "promises-aplus",
+    "bluebird"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.0"
+  }
+}
